@@ -28,13 +28,21 @@ nav {
 }
 
 nav a {
-    margin: 0 15px;
+    margin: 5px;
+    padding: 10px 20px;
     text-decoration: none;
     color: #4CAF50;
+    background-color: white; /* Box background color */
+    border: 2px solid #4CAF50; /* Border around each box */
+    border-radius: 5px; /* Rounded corners for box */
+    display: inline-block; /* Makes links behave like buttons */
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color: #4CAF50; /* Invert colors on hover */
+    color: white;
+    border: 2px solid white;
+    transition: 0.3s ease-in-out;
 }
 
 .container {

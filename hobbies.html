@@ -3,13 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills</title>
+    <title>Hobbies</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional styling for hobbies section */
+        #hobbies {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        #hobbies h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        #hobbies ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #hobbies ul li {
+            background-color: #e0f7fa;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 1.1rem;
+            color: #333;
+            border: 1px solid #4CAF50;
+        }
+
+        #hobbies ul li:hover {
+            background-color: #4CAF50;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .hobby-description {
+            font-size: 0.95rem;
+            color: #ffffff;
+            margin-top: 5px;
+            padding-left: 10px;
+        }
+    </style>
 </head>
 <body>
     <!-- <a href="/index.html"><button>gooooooooo</button></a> -->
     <header>
-        <h1><strong>WELCOME TO MY PROTFOLIO</strong></h1>
+        <h1><strong>WELCOME TO MY PORTFOLIO</strong></h1>
         <div class="image-container"> <img src="photo.jpg" alt="Mahim's Photo" class="profile-picture"></div>
         <p>B.Sc. in Computer Science & Engineering | University of Rajshahi</p>
         
@@ -23,6 +69,36 @@
         <a href="./contact.html">Contact</a>
     </nav>
     
-    
+    <div id="hobbies" class="section">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>
+                Coding Challenges
+                <div class="hobby-description">Solving coding problems and participating in competitions to enhance problem-solving and programming skills.</div>
+            </li>
+            <li>
+                Gaming
+                <div class="hobby-description">Playing video games to relax, connect with others, and engage in virtual problem-solving challenges.</div>
+            </li>
+            <li>
+                Public Speaking
+                <div class="hobby-description">Improving communication skills and boosting confidence by delivering speeches and engaging in discussions.</div>
+            </li>
+            <li>
+                Photography
+                <div class="hobby-description">Capturing moments and experimenting with different photography techniques and styles.</div>
+            </li>
+            <li>
+                Traveling
+                <div class="hobby-description">Exploring new places, experiencing different cultures, and gaining new perspectives on life.</div>
+            </li>
+            <li>
+                Reading
+                <div class="hobby-description">Reading books on technology, fiction, self-improvement, and more to expand knowledge and creativity.</div>
+            </li>
+        
+           
+        </ul>
+    </div>
 </body>
 </html>

@@ -3,16 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills</title>
+    <title>Portfolio - Contact</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Styling for contact section */
+        #contact {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            font-family: Arial, sans-serif;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        #contact h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #contact p {
+            margin: 10px 0;
+            font-size: 1rem;
+        }
+        #contact a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        #contact a:hover {
+            text-decoration: underline;
+        }
+        .email-list {
+            display: flex;
+            justify-content: space-between;
+        }
+        .address-table {
+            margin: 20px auto;
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1rem;
+        }
+        .address-table th, .address-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            
+        }
+        .address-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <!-- <a href="/index.html"><button>gooooooooo</button></a> -->
     <header>
-        <h1><strong>WELCOME TO MY PROTFOLIO</strong></h1>
-        <div class="image-container"> <img src="photo.jpg" alt="Mahim's Photo" class="profile-picture"></div>
+        <h1><strong>WELCOME TO MY PORTFOLIO</strong></h1>
+        <div class="image-container">
+            <img src="photo.jpg" alt="Photo of Mahim" class="profile-picture">
+        </div>
         <p>B.Sc. in Computer Science & Engineering | University of Rajshahi</p>
-        
     </header>
     <nav>
         <a href="./index.html">About Me</a>
@@ -22,13 +68,28 @@
         <a href="./hobbies.html">Hobbies</a>
         <a href="./contact.html">Contact</a>
     </nav>
-    </div>
     <div id="contact" class="section">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:mahimbabu111111@gmail.com">mahimbabu111111@gmail.com</a></p>
+        <p class="email-list">
+            <span>Email: <a href="mailto:mahimbabu111111@gmail.com">mahimbabu111111@gmail.com</a> or <a href="mailto:s2210176124@ru.ac.bd">s2210176124@ru.ac.bd</a></span>
+        </p>
         <p>Phone: <a href="tel:+8801799884594">01799884594</a></p>
+        <p>Facebook: <a href="https://facebook.com/mm.mahim.111" target="_blank">facebook.com/mm.mahim.111</a></p>
+        <p>GitHub: <a href="https://github.com/mahim-111" target="_blank">github.com/mahim-111</a></p>
+
+        <!-- Address Table -->
+        <h2>Address</h2>
+        <table class="address-table">
+            <tr>
+                <th>Present </th>
+                <th>Permanent</th>
+            </tr>
+            <tr>
+                <td>Sher-e Bangla Hall, <br> University Of Rajshahi.</td>
+                <td>Nawabganj, Dinajpur.</td>
+            </tr>
+           
+        </table>
     </div>
-    </div>
-    
 </body>
 </html>

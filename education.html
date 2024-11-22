@@ -3,16 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skills</title>
+    <title>Education</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic table styling */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        caption{
+        color: #4CAF50;
+
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        caption {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <!-- <a href="/index.html"><button>gooooooooo</button></a> -->
     <header>
-        <h1><strong>WELCOME TO MY PROTFOLIO</strong></h1>
-        <div class="image-container"> <img src="photo.jpg" alt="Mahim's Photo" class="profile-picture"></div>
+        <h1><strong>WELCOME TO MY PORTFOLIO</strong></h1>
+        <div class="image-container">
+            <img src="photo.jpg" alt="Photo of Mahim" class="profile-picture">
+        </div>
         <p>B.Sc. in Computer Science & Engineering | University of Rajshahi</p>
-        
     </header>
     <nav>
         <a href="./index.html">About Me</a>
@@ -22,7 +47,52 @@
         <a href="./hobbies.html">Hobbies</a>
         <a href="./contact.html">Contact</a>
     </nav>
-    
+   
+    <main>       
+        <table>
+            <caption>Educational Qualifications</caption>
+            <thead>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year of Completion</th>
+                    <th>Grade/CGPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>B.Sc. in Computer Science & Engineering</td>
+                    <td>University of Rajshahi</td>
+                    <td>Ongoing</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>HSC</td>
+                    <td>Police Lines School and College, Rangpur</td>
+                    <td>2021</td>
+                    <td>GPA - 5.00</td>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td>Nawabganj Govt. Pilot High School, Dinajpur</td>
+                    <td>2019</td>
+                    <td>GPA - 5.00</td>
+                </tr>
+                <tr>
+                    <td>JSC</td>
+                    <td>Nawabganj Govt. Pilot High School, Dinajpur</td>
+                    <td>2016</td>
+                    <td>GPA - 5.00</td>
+                </tr>
+                <tr>
+                    <td>PSC</td>
+                    <td>Sunrise Kindergarten and Pre-Cadet School Nawabganj, Dinajpur</td>
+                    <td>2013</td>
+                    <td>GPA - 5.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
     
 </body>
 </html>
